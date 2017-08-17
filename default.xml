@@ -6,6 +6,7 @@
 
   <project remote="origin" revision="master" name="delphi/meta-ics-rpi" path="sources/meta-ics-rpi">
         <copyfile dest="init-build-env-gl" src="scripts/init-build-env-gl"/>
+        <copyfile dest="init-build-env-htc" src="scripts/init-build-env-htc"/>
   </project>
   <project remote="origin" revision="3ca9f90dffad3907ceec605a851ae949dd3b6bd6" name="delphi/poky" path="sources/poky"/>
   <project remote="origin" revision="a5f9b07a820d50ae5fb62e07306cd4e72d8638a9" name="delphi/meta-raspberrypi" path="sources/meta-raspberrypi"/>
