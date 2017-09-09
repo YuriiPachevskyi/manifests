@@ -23,4 +23,12 @@
            revision="55c8a76da5dc099a7bc3838495c672140cedb78e"
            name="delphi/meta-openembedded"
            path="sources/meta-openembedded"/>
+  <project remote="origin"
+           revision="master"
+           name="delphi/remote_display"
+           path="projects/remote-display"/>
+  <project remote="origin"
+           revision="master"
+           name="delphi/input-mgr"
+           path="projects/input-mgr"/>
 </manifest>
