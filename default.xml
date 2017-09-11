@@ -12,7 +12,7 @@
            <copyfile dest="init-build-env-htc" src="scripts/init-build-env-htc"/>
   </project>
   <project remote="origin"
-           revision="3ca9f90dffad3907ceec605a851ae949dd3b6bd6"
+           revision="ae58e405ec29e4deefe5633c81960c88d67db039"
            name="delphi/poky"
            path="sources/poky"/>
   <project remote="origin"
