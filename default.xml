@@ -31,4 +31,8 @@
            revision="master"
            name="delphi/input-mgr"
            path="projects/input-mgr"/>
+  <project remote="origin"
+           revision="master"
+           name="delphi/csp-audio-tool"
+           path="projects/csp-audio-tool"/>
 </manifest>
