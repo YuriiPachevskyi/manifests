@@ -39,4 +39,8 @@
            revision="master"
            name="delphi/csp-audio-tool"
            path="projects/csp-audio-tool"/>
+  <project remote="origin"
+           revision="master"
+           name="delphi/audio-manager"
+           path="projects/audio-manager"/>
 </manifest>
