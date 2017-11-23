@@ -43,4 +43,8 @@
            revision="master"
            name="delphi/audio-manager"
            path="projects/audio-manager"/>
+  <project remote="origin"
+           revision="master"
+           name="delphi/key-event"
+           path="projects/key-event"/>
 </manifest>
