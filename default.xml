@@ -37,6 +37,14 @@
            path="projects/input-mgr"/>
   <project remote="origin"
            revision="master"
+           name="delphi/common-utilities"
+           path="projects/common-utilities"/>
+  <project remote="origin"
+           revision="master"
+           name="delphi/csp-audio-sink"
+           path="projects/csp-audio-sink"/>
+  <project remote="origin"
+           revision="master"
            name="delphi/csp-audio-tool"
            path="projects/csp-audio-tool"/>
   <project remote="origin"
