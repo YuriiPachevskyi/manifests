@@ -55,4 +55,8 @@
            revision="master"
            name="delphi/key-event"
            path="projects/key-event"/>
+  <project remote="origin"
+           revision="master"
+           name="delphi/audio-common"
+           path="projects/audio-common"/>
 </manifest>
