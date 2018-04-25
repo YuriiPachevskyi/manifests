@@ -20,10 +20,6 @@
            name="delphi/meta-raspberrypi"
            path="sources/meta-raspberrypi"/>
   <project remote="origin"
-           revision="f8584d7a7c90afc71484a40279aa3df651d0e04f"
-           name="delphi/meta-qt5"
-           path="sources/meta-qt5"/>
-  <project remote="origin"
            revision="55c8a76da5dc099a7bc3838495c672140cedb78e"
            name="delphi/meta-openembedded"
            path="sources/meta-openembedded"/>
