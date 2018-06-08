@@ -2,25 +2,11 @@
 <manifest>
   <default revision="master" sync-j="4"/>
 
-  <remote fetch="ssh://gerrit-ua.globallogic.com" name="origin"/>
+  <remote fetch="git://git.yoctoproject.org" name="origin"/>
+  <remote fetch="git://git.yoctoproject.org/poky" name="gerrit"/>
 
   <project remote="origin"
-           revision="master"
-           name="delphi/meta-ics-rpi"
-           path="sources/meta-ics-rpi">
-           <copyfile dest="init-build-env-gl" src="scripts/init-build-env-gl"/>
-           <copyfile dest="init-build-env-htc" src="scripts/init-build-env-htc"/>
-  </project>
-  <project remote="origin"
-           revision="ae58e405ec29e4deefe5633c81960c88d67db039"
-           name="delphi/poky"
+           revision="444dc2e99b3c3967d9f83380c34bb99077a6ffa8"
+           name="poky"
            path="sources/poky"/>
-  <project remote="origin"
-           revision="a5f9b07a820d50ae5fb62e07306cd4e72d8638a9"
-           name="delphi/meta-raspberrypi"
-           path="sources/meta-raspberrypi"/>
-  <project remote="origin"
-           revision="55c8a76da5dc099a7bc3838495c672140cedb78e"
-           name="delphi/meta-openembedded"
-           path="sources/meta-openembedded"/>
 </manifest>
