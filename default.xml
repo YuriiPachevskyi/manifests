@@ -8,12 +8,6 @@
 
   <project remote="origin"
            revision="master"
-           name="meta-course"
-           path="sources/meta-course">
-           <copyfile dest="init-build-env" src="scripts/init-build-env"/>
-  </project>
-  <project remote="origin"
-           revision="master"
            name="meta-test"
            path="sources/meta-test">
            <copyfile dest="init-build-env-qemu" src="scripts/init-build-env-qemu"/>
@@ -22,10 +16,6 @@
            revision="444dc2e99b3c3967d9f83380c34bb99077a6ffa8"
            name="poky"
            path="sources/poky"/>
-  <project remote="yocto"
-           revision="a5f9b07a820d50ae5fb62e07306cd4e72d8638a9"
-           name="meta-raspberrypi"
-           path="sources/meta-raspberrypi"/>
   <project remote="openembedded"
            revision="55c8a76da5dc099a7bc3838495c672140cedb78e"
            name="meta-openembedded"
