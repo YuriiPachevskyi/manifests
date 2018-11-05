@@ -5,6 +5,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="openembedded"/>
   <remote fetch="https://github.com/YuriiPachevskyi" name="origin"/>
+  <remote fetch="https://github.com" name="origin2"/>
 
   <project remote="origin"
            revision="master"
@@ -13,16 +14,20 @@
            <copyfile dest="init-build-env" src="scripts/init-build-env"/>
   </project>
 
+  <project remote="origin2"
+           revision="5832bf2747a70257eca5c443fd487532d62c90b3"
+           name="meta-qt5/meta-qt5"
+           path="sources/meta-qt5"/>
   <project remote="yocto"
-           revision="444dc2e99b3c3967d9f83380c34bb99077a6ffa8"
+           revision="84eecb017ef92ef36b4df730908828e54aeff85c"
            name="poky"
            path="sources/poky"/>
   <project remote="yocto"
-           revision="a5f9b07a820d50ae5fb62e07306cd4e72d8638a9"
+           revision="0f14d185d387f59ff9f00365ff314cf51e46db58"
            name="meta-raspberrypi"
            path="sources/meta-raspberrypi"/>
   <project remote="openembedded"
-           revision="55c8a76da5dc099a7bc3838495c672140cedb78e"
+           revision="f1511d254632a34c1deb51f4bf8b8c21e7423f51"
            name="meta-openembedded"
            path="sources/meta-openembedded"/>
 </manifest>
